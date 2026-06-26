@@ -1,0 +1,32 @@
+# Rust build output
+/target/
+
+# Generated binaries and profiling artifacts
+*.profraw
+*.profdata
+perf.data
+perf.data.old
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment/config files
+.env
+.env.*
+!.env.example
+
+# Test and coverage output
+/coverage/
+/tarpaulin-report.html
+/lcov.info
+
+# Local scratch output
+/tmp/
+/scratch/
+*.log

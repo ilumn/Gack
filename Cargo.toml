@@ -1,0 +1,30 @@
+[package]
+name = "gack"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A compact terminal Git panel for everyday repository work."
+license = "MIT"
+repository = "https://github.com/ilumn/Gack"
+homepage = "https://github.com/ilumn/Gack"
+readme = "README.md"
+keywords = ["git", "tui", "terminal", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+include = [
+    "/Cargo.lock",
+    "/Cargo.toml",
+    "/CHANGELOG.md",
+    "/LICENSE-MIT",
+    "/README.md",
+    "/SECURITY.md",
+    "/src/**/*.rs",
+    "/tests/**/*.rs",
+]
+
+[dependencies]
+crossterm = "0.29"
+notify = "8"
+ratatui = { version = "0.30", default-features = false, features = ["crossterm"] }
+
+[dev-dependencies]
+tempfile = "3"
