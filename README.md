@@ -4,6 +4,9 @@ Gack is a compact Rust terminal UI for everyday Git work. It is designed to feel
 
 The name is inspired by the exclamation one makes when they forget a niche git command and have to google it.
 
+<img  height="512" alt="image" src="https://github.com/user-attachments/assets/19bb2dfe-d96c-4a18-9dbe-14631302680c" />
+
+
 ## Features
 
 - Dense Changes panel with staged, unstaged, untracked, deleted, renamed, copied, and conflicted files.
